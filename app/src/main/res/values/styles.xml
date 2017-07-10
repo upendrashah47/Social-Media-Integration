@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="plus1">
+        <item name="android:layout_x">45dp</item>
+        <item name="android:layout_y">430dp</item>
+    </style>
+
+    <style name="plus2">
+        <item name="android:layout_x">140dp</item>
+        <item name="android:layout_y">287dp</item>
+    </style>
+
+    <style name="plus3">
+        <item name="android:layout_x">195dp</item>
+        <item name="android:layout_y">495dp</item>
+    </style>
+
+    <style name="plus4">
+        <item name="android:layout_x">275dp</item>
+        <item name="android:layout_y">370dp</item>
+    </style>
+
+    <style name="pintrest">
+        <item name="android:layout_x">28dp</item>
+        <item name="android:layout_y">290dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="pintrest_title">
+        <item name="android:layout_x">55dp</item>
+        <item name="android:layout_y">390dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tag">100</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+
+    <style name="linkedin">
+        <item name="android:layout_x">62dp</item>
+        <item name="android:layout_y">445dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="linkedin_title">
+        <item name="android:layout_x">88dp</item>
+        <item name="android:layout_y">548dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tag">100</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+    <style name="google">
+        <item name="android:layout_x">140dp</item>
+        <item name="android:layout_y">358dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="facebook">
+        <item name="android:layout_x">232dp</item>
+        <item name="android:layout_y">411dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="facebook_title">
+        <item name="android:layout_x">255dp</item>
+        <item name="android:layout_y">511dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tag">100</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+
+    <style name="twitter">
+        <item name="android:layout_x">190dp</item>
+        <item name="android:layout_y">245dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="google_title">
+        <item name="android:layout_x">160dp</item>
+        <item name="android:layout_y">450dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tag">100</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+    <style name="twitter_title">
+        <item name="android:layout_x">217dp</item>
+        <item name="android:layout_y">346dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:tag">100</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+
+</resources>

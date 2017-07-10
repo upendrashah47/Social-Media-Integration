@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SocialIntegration</string>
+    <string name="facebook_app_id">1684063691924373</string>
+    <string name="pinterest_app_id">4876627695001159652</string>
+
+    <string name="ok">Ok</string>
+</resources>

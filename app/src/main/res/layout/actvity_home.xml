@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="-10dp"
+        android:orientation="vertical">
+
+        <AbsoluteLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/plus1"
+                style="@style/plus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_plus_new" />
+
+            <ImageView
+                android:id="@+id/plus2"
+                style="@style/plus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_plus_new" />
+
+            <ImageView
+                android:id="@+id/plus3"
+                style="@style/plus3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_plus_new" />
+
+
+            <ImageView
+                android:id="@+id/plus4"
+                style="@style/plus4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_plus_new" />
+
+            <ImageView
+                android:id="@+id/imgFacebook"
+                style="@style/facebook"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="onClick"
+                android:src="@drawable/home_facebook" />
+
+            <TextView
+                android:id="@+id/txvFbUser"
+                style="@style/facebook_title"
+                android:text="Facebook" />
+
+            <ImageView
+                android:id="@+id/imgTwiteer"
+                style="@style/twitter"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="onClick"
+                android:src="@drawable/home_twitter" />
+
+            <TextView
+                android:id="@+id/txvTwUser"
+                style="@style/twitter_title"
+                android:text="Twittter" />
+
+            <ImageView
+                android:id="@+id/imgGoogle"
+                style="@style/google"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_x="131dp"
+                android:layout_y="350dp"
+                android:onClick="onClick"
+                android:src="@drawable/home_google" />
+
+            <TextView
+                android:id="@+id/txvGpUser"
+                style="@style/google_title"
+                android:text="Google" />
+
+            <ImageView
+                android:id="@+id/imgLinkedin"
+                style="@style/linkedin"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_x="62dp"
+                android:layout_y="447dp"
+                android:onClick="onClick"
+                android:src="@drawable/home_linkedin" />
+
+            <TextView
+                android:id="@+id/txvInUser"
+                style="@style/linkedin_title"
+                android:text="LinkedIn" />
+
+            <ImageView
+                android:id="@+id/imgPintrest"
+                style="@style/pintrest"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_x="29dp"
+                android:layout_y="290dp"
+                android:onClick="onClick"
+                android:src="@drawable/home_pingrest" />
+
+            <TextView
+                android:id="@+id/txvPiUser"
+                style="@style/pintrest_title"
+                android:text="Pintrest" />
+
+        </AbsoluteLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtComposeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/border_default"
+            android:gravity="left"
+            android:hint="Compose Message...."
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/imgSelected"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/btnBrowse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgSelected"
+            android:layout_toLeftOf="@+id/btnPost"
+            android:text="Browse" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgSelected"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Post" />
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgSelected"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/btnPost"
+            android:text="Test" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
