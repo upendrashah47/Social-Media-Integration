@@ -19,11 +19,13 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -489,5 +491,31 @@ public class Utils {
 
     public static int getToolbarHeight(Context context) {
         return 0;
+    }
+
+    public static String streamToString(InputStream is) throws IOException {
+        String str = "";
+
+        if (is != null) {
+            StringBuilder sb = new StringBuilder();
+            String line;
+
+            try {
+                BufferedReader reader = new BufferedReader(
+                        new InputStreamReader(is));
+
+                while ((line = reader.readLine()) != null) {
+                    sb.append(line);
+                }
+
+                reader.close();
+            } finally {
+                is.close();
+            }
+
+            str = sb.toString();
+        }
+
+        return str;
     }
 }

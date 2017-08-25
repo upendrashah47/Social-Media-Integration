@@ -53,13 +53,15 @@ public class MyTwitter {
     private static final String TWITTER_SECRET = "ZOddMaqjC44WCyZBAzGyZBafh4AWgrXf5ymPDVal2WtomRFOG4";
 //    private static final String TWITTER_KEY = "aa9o4UHteF32AssOt706oqIdG";
 //    private static final String TWITTER_SECRET = "aNjEUtUIXbGeWqcpm6j7ibl5VHX0pziRa5PBkkahKSSQi6o7jj";
+//    public static final String TWITTER_KEY = "XkyldoVomQCw9aGuyjYGJqKNo";
+//    public static final String TWITTER_SECRET = "PSgrvasz2rf9Hoja8le8EpHSUrY3orjMABqnud5oKRCSZTJn2q";
 
     public MyTwitter(Activity activity) {
         this.activity = activity;
         this.context = activity.getApplicationContext();
 
         if (!isTwitterInit) {
-            twitterSDK(this.activity);
+            TwitterSDK(this.activity);
         }
         Log.print("MyTwitter", "Contructro of TE fabric done");
     }
@@ -201,7 +203,7 @@ public class MyTwitter {
         return f;
     }
 
-    public static void twitterSDK(Activity activity) {
+    public static void TwitterSDK(Activity activity) {
         try {
             TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
             Fabric.with(activity, new Twitter(authConfig), new TweetComposer());//

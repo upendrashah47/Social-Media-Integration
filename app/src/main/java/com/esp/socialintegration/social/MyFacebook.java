@@ -48,7 +48,6 @@ import static com.facebook.AccessToken.getCurrentAccessToken;
  */
 public class MyFacebook {
 
-
     public CallbackManager mCallbackManager;
 
     private Context context;

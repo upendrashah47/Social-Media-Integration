@@ -51,10 +51,6 @@ public class Config {
     public static String COOKIE_KEY = "Cookie";
     public static String SESSION_COOKIE = "sessionid";
 
-
-    public static final String TWITTER_KEY = "XkyldoVomQCw9aGuyjYGJqKNo";
-    public static final String TWITTER_SECRET = "PSgrvasz2rf9Hoja8le8EpHSUrY3orjMABqnud5oKRCSZTJn2q";
-
     /*
     * Pref variables
     * */
